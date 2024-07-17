@@ -1,0 +1,38 @@
+.card{
+width: 400px;
+}
+
+::-webkit-scrollbar{
+display: none;
+}
+
+.title-card{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card .overlay-text{
+    
+    height: 0px;
+    position: absolute;
+    bottom:0;
+    transition: all .233s cubic-bezier(0.65, 0,0.35,1) ;
+    background: no-repeat linear-gradient(#0000, #0000004d 20%, #000000bf 75%);
+    
+}
+.card .overlay-text p{
+    display: none;
+    transition: all .233s cubic-bezier(0.65, 0,0.35,1);
+    
+}
+
+.card:hover .overlay-text p{
+    display: block;
+}
+.card:hover .overlay-text{
+    height: 130px;
+}
+
+
+
+
+

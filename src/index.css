@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@font-face {
+  font-family: AvertaCY;
+  src: url(./assets/fonts/AvertaCY-Regular.woff);
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body{
+  background-color: black;
+  color: white;
+}
